@@ -1,3 +1,4 @@
+<img align="center" src="https://i.imgur.com/oJf7hjX.png"/>
 # 🎮 GXGaming
 
 Bem-vindo ao **GXGaming**, onde o código encontra os games! 🚀  
