@@ -21,16 +21,15 @@ Este projeto reúne estilo, velocidade e funcionalidades pensadas para fortalece
 
 | Plataforma       | Backend        | Mobile           | Extras            |
 |------------------|----------------|------------------|-------------------|
-| React / Next.js  | Node.js / NestJS | React Native / Expo | Firebase / Supabase |
-| Tailwind / Sass | Express.js     | TypeScript       | Vercel / GitHub Actions |
+| React / Next.js  | Node.js / SQL  | Kotlin / C#      | Firebase / Supabase |
+| Tailwind / Sass | Assembly        | C/C++ / SDL2     | Vercel / GitHub Actions |
 
 🧙‍♂️ Linguagens usadas no desenvolvimento do MU Online
-| Linguagem | Função principal no MU Online | 
-| C++ | Base do cliente e servidor original, com OpenGL | 
-| Lua | Scripts para eventos, NPCs, drops e automações | 
-| SQL | Manipulação do banco de dados (personagens, itens etc) | 
-| Assembly | Modificações profundas no executável (client/server) | 
-| PHP / JS | Painéis web, rankings, loja online, integração externa | 
+
+| Linguagem       | Backend        | Mobile           | Extras            |
+|------------------|----------------|------------------|-------------------|
+| C++ com OpenGL / Next.js  | Node.js / NestJS | React Native / Expo | Firebase / Supabase |
+| Lua:Scripts / Sass | Express.js     | TypeScript       | Vercel / GitHub Actions |
 
 🔍 Detalhes importantes
 - C++ com OpenGL: O client original do MU foi feito em C++ com renderização via OpenGL. Muitos servidores privados ainda usam essa base.
