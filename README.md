@@ -37,6 +37,8 @@ O **GXGaming** foi criado para servir como centro de referência e interação p
 | SQL (T-SQL)    | Banco de dados do servidor: inventário, personagens |
 | Assembly       | Modificações de executáveis e comportamento interno |
 | PHP / JS       | Painéis web, integração com banco e gerenciamento   |
+| Java / Kotlin  | Painéis web, integração com banco e gerenciamento   |
+| SDL2 / Mobile  | Painéis web, integração com banco e gerenciamento   |
 
 > O uso de Lua e SQL é essencial para criar um servidor funcional e customizado de MU.  
 > Já o C++ e Assembly são usados por quem quer fazer alterações profundas na engine ou client original.
