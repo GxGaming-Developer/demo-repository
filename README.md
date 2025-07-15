@@ -1,48 +1,49 @@
 <img align="center" src="https://i.imgur.com/oJf7hjX.png"/>
+
 # 🧙‍♂️ GXGaming — MU Online & Mobile Power
 
-Bem-vindo ao **GXGaming**, o destino definitivo para jogadores de **MU Online** e entusiastas de experiências mobile.  
-Este projeto reúne estilo, velocidade e funcionalidades pensadas para fortalecer a comunidade gamer brasileira.
+Bem-vindo ao **GXGaming**, o destino definitivo para jogadores de **MU Online** e entusiastas mobile!  
+Este projeto une interface moderna, ferramentas inteligentes e experiência gamer completa — tanto no navegador quanto no celular.
 
 ---
 
 ## 🧠 Visão geral
 
-**GXGaming** oferece:
-- 🗺️ Recursos exclusivos para jogadores de MU Online
-- 📱 Aplicativo mobile para acompanhar rankings, notícias e loja virtual
-- 🛠️ Ferramentas de guilda, builds e dicas de evolução
-- 🛒 Loja integrada com itens, coins e bônus
-- 🎙️ Central de notícias, eventos e updates
+O **GXGaming** foi criado para servir como centro de referência e interação para fãs de MU Online. Nossa missão: oferecer uma experiência ágil, envolvente e conectada para quem joga por diversão ou competição.
+
+### ✨ O que você encontra aqui:
+- 🗺️ Builds e guias para classes e mapas de MU Online
+- 📱 Aplicativo mobile com status de servidor e loja integrada
+- ⚒️ Ferramentas de guilda, ranking, reset e doações
+- 🛒 Sistema de loja com itens, moedas e promoções
+- 📣 Notícias e eventos direto da comunidade
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🧪 Linguagens e Tecnologias utilizadas
 
-| Plataforma       | Backend        | Mobile           | Extras            |
-|------------------|----------------|------------------|-------------------|
-| React / Next.js  | Node.js / SQL  | Kotlin / C#      | Firebase / Supabase |
-| Tailwind / Sass | Assembly        | C/C++ / SDL2     | Vercel / GitHub Actions |
+### 💻 Plataforma Web & Mobile
 
-🧙‍♂️ Linguagens usadas no desenvolvimento do MU Online
+| Frontend       | Mobile         | Backend        | Estilo              |
+|----------------|----------------|----------------|---------------------|
+| React / Next.js| React Native / Expo | Node.js / Express | Tailwind / Sass / Styled-components |
 
-| Linguagem       | Backend        | Mobile           | Extras            |
-|------------------|----------------|------------------|-------------------|
-| C++ com OpenGL / Next.js  | Node.js / NestJS | React Native / Expo | Firebase / Supabase |
-| Lua:Scripts / Sass | Express.js     | TypeScript       | Vercel / GitHub Actions |
+### 🧙 Servidor MU Online
 
-🔍 Detalhes importantes
-- C++ com OpenGL: O client original do MU foi feito em C++ com renderização via OpenGL. Muitos servidores privados ainda usam essa base.
-- Lua: Muito usada para scripts de eventos, configurações de monstros, NPCs e sistemas customizados. É a linguagem mais acessível para quem quer começar a personalizar o jogo.
-- SQL: Essencial para gerenciar o banco de dados do servidor. Você pode editar atributos, inventário, guildas, rankings e muito mais.
-- Assembly: Para quem quer modificar o comportamento do executável diretamente (ex: remover proteção, alterar funções internas).
-- Web (PHP/JS): Usado para criar interfaces externas como painel de administração, loja de itens, sistema de doações, etc.
+| Linguagem      | Função no Servidor MU                               |
+|----------------|-----------------------------------------------------|
+| C++ / OpenGL   | Base do cliente original, renderização gráfica      |
+| Lua            | Scripts de eventos, drops, NPCs, automações         |
+| SQL (T-SQL)    | Banco de dados do servidor: inventário, personagens |
+| Assembly       | Modificações de executáveis e comportamento interno |
+| PHP / JS       | Painéis web, integração com banco e gerenciamento   |
+
+> O uso de Lua e SQL é essencial para criar um servidor funcional e customizado de MU.  
+> Já o C++ e Assembly são usados por quem quer fazer alterações profundas na engine ou client original.
 
 ---
 
-## 📦 Instalação
-
-Clone e rode localmente:
+## 📦 Instalação do Projeto
 
 ```bash
 git clone https://github.com/seu-user/gxgaming.git
@@ -50,41 +51,45 @@ cd gxgaming
 npm install
 npm run dev
 
-🗂️ Estrutura do Projet
+📱 App Mobile
+Aplicativo desenvolvido com Expo, disponível para Android e iOS.
+Funcionalidades:
+- 🔥 Status de servidores em tempo real
+- 🛒 Acesso à loja de itens e bônus
+- 📢 Notificações de eventos e guerras
+- 🧙 Link com perfil do personagem e evolução (em desenvolvimento)
+
+🗂️ Estrutura do Projeto
 src/
-├── assets/          # Imagens dos mapas, classes e ícones de spells
-├── components/      # Menus, cards de personagens, leaderboard
-├── pages/           # Home, builds, guildas, loja
-├── services/        # Integrações com API do servidor MU
-├── mobile/          # App mobile com Expo
-└── App.tsx          # Portal principal do universo GXGaming
+├── assets/        # Ícones, mapas e classes do MU
+├── components/    # Cards, menus, ranking, loja
+├── pages/         # Home, builds, guildas, loja, eventos
+├── services/      # Integração com banco e APIs MU
+├── mobile/        # Aplicativo mobile via Expo
+└── App.tsx        # Entrada principal
 
-📱 Aplicativo Mobile
-Disponível para Android e iOS:
-- ⏱️ Ver status de servidores em tempo real
-- 🎒 Acessar inventário da loja
-- 📢 Receber notificações de eventos, wars e updates
-Em breve: sistema de login e integração com seu personagem!
+---
+## 🧪 Testes
+npm test         # Testes unitários com Jest
+npm run cy:open  # Testes end-to-end com Cypress
+```bash
 
-🧪 Testes
-GXGaming valoriza performance e estabilidade. Utilizamos:
+---
+## 🤝 Contribuições
+Curte MU e manja de código? Contribua!
+- Faça um fork 🍴
+- Desenvolva uma feature ou correção 🔧
+- Envie um Pull Request 🚀
+```bash
 
-npm run test          # Unitários com Jest
-npm run cy:open       # E2E com Cypress
+## 📄 Licença
+MIT. Código livre, mas com alma de guerreiro.
+Use, aprimore e respeite a comunidade gamer.
 
-🤝 Contribua
-É dev e joga MU? Bora evoluir junto!
-- Faça um fork
-- Crie uma feature
-- Envie seu pull request
-
-📄 Licença
-MIT. Use, compartilhe, modifique e espalhe o espírito gamer ⚔️
-“GXGaming: O mundo de MU nas suas mãos — desktop ou mobile, o jogo continua.” 📱🧙‍♂️
-
-📫 Contato
-Desenvolvido com ❤️ por Pedro Otoniel
+## 📫 Contato
+Desenvolvido com 💙 por Supremo
 📧 contato@gxgaming.com.br
 🔗 www.gxgaming.com.br
 
+“GXGaming: O poder do MU nas suas mãos. Online, mobile e além da imaginação.” 🧙‍♂️📱🌍
 
